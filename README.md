@@ -4,16 +4,28 @@ This repository is meant to act as a home page linking to the various programs r
 
 > H. Kaul and A. Rumpf. Public transit optimization with social access objectives: A case study of primary health care access for underserved communities of Chicago. In preparation, 2020.
 
-I would not expect these programs to be of much use to anyone outside of our research group, but they are provided here for anyone interested.
+I would not expect these programs to be of much use to anyone outside of our research group, but they are provided here for anyone interested. The sections below include links to the repositories related to this project as well as brief explanations of how they fit into the study. The READMEs of the individual repositories explain their functions in greater detail.
 
-[social-transit-preprocessor](https://github.com/adam-rumpf/social-transit-preprocessor)
+## Chicago Data Preprocessing
 
-[social-transit-example](https://github.com/adam-rumpf/social-transit-example)
+[social-transit-preprocessor](https://github.com/adam-rumpf/social-transit-preprocessor) is a Python script written to perform preprocessing on various City of Chicago and CTA data sets in order to construct the underlying network for our main case study.
 
-[social-transit-solver-single](https://github.com/adam-rumpf/social-transit-solver-single)
+## Procedural Artificial Network Generation
 
-[social-transit-solver](https://github.com/adam-rumpf/social-transit-solver)
+[social-transit-example](https://github.com/adam-rumpf/social-transit-example) is a Mathematica script written for procedurally generating artificial networks for use in testing our main solution algorithm.
 
-[social-transit-trial-driver](https://github.com/adam-rumpf/social-transit-trial-driver)
+## Main Solver Preprocessing
 
-[social-transit-network-analysis](https://github.com/adam-rumpf/social-transit-network-analysis)
+[social-transit-solver-single](https://github.com/adam-rumpf/social-transit-solver-single) is a C++ program used for conducting the preprocessing necessary to generate the input files for the main solver [social-transit-solver](https://github.com/adam-rumpf/social-transit-solver).
+
+## Main Solver
+
+[social-transit-solver](https://github.com/adam-rumpf/social-transit-solver) is a C++ implementation of our main hybrid tabu search/simulated annealing solution algorithm.
+
+## Computational Trial Driver
+
+[social-transit-trial-driver](https://github.com/adam-rumpf/social-transit-trial-driver) is a C++ program that calls the main solver [social-transit-solver](https://github.com/adam-rumpf/social-transit-solver) repeatedly to solve a set of problem instances.
+
+## Miscellaneous
+
+[social-transit-network-analysis](https://github.com/adam-rumpf/social-transit-network-analysis) is a collection of miscellaneous C++, Python, and Mathematica utilities used to perform various result analysis and file editing tasks throughout the computational trial process.
