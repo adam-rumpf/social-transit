@@ -4,6 +4,10 @@ This repository is meant to act as a home page linking to the various programs r
 
 > A. Rumpf and H. Kaul. A public transit network optimization model for equitable access to social services. In _Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO’21)_, October 5–9, 2021. Association for Computing Machinery, New York, NY, doi: [10.1145/3465416.3483288](https://doi.org/10.1145/3465416.3483288).
 
+The data associated with this project can be found at Mendeley Data:
+
+> A. Rumpf and H. Kaul. A public transit network optimization model for equitable access to social services. Mendeley Data, 2021, doi: [10.17632/pv2jvghs9b](https://doi.org/10.17632/pv2jvghs9b).
+
 I would not expect these programs to be of much use to anyone outside of our research group, but they are provided here for anyone interested. The sections below include links to the repositories related to this project as well as brief explanations of how they fit into the study. The READMEs of the individual repositories explain their functions in greater detail.
 
 ## Chicago Data Preprocessing
