@@ -2,7 +2,7 @@
 
 This repository is meant to act as a home page linking to the various programs related to the research project:
 
-> H. Kaul and A. Rumpf. Public transit optimization with social access objectives: A case study of primary health care access for underserved communities of Chicago. In preparation, 2020.
+> A. Rumpf and H. Kaul. A public transit network optimization model for equitable access to social services. In _Equity and Access in Algorithms, Mechanisms, and Optimization (EAAMO’21)_, October 5–9, 2021. Association for Computing Machinery, New York, NY, doi: [10.1145/3465416.3483288](https://doi.org/10.1145/3465416.3483288).
 
 I would not expect these programs to be of much use to anyone outside of our research group, but they are provided here for anyone interested. The sections below include links to the repositories related to this project as well as brief explanations of how they fit into the study. The READMEs of the individual repositories explain their functions in greater detail.
 
